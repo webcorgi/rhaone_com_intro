@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background: url(../img/bg_items.png) top /contain no-repeat;
     text-align: center;
@@ -57,7 +61,6 @@ section {
     width: 520px;
     font-size: 40px;
 }
-.text {}
 .text .title {
     font-size: 30px;
     margin-bottom: 30px;
